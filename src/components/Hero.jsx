@@ -155,7 +155,7 @@ const Hero = () => {
               initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 0.9 }}
-              className="  flex flex-wrap mt-12 gap-10 text-2xl md:text-3xl lg:text-4xl"
+              className="  flex flex-wrap mt-12 gap-10 justify-center text-2xl md:text-3xl lg:text-4xl"
             >
               <motion.div
                 variants={tech_animaton(3)}
