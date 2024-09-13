@@ -26,9 +26,11 @@ const Get_in_Touch = () => {
       setResult("Form Submitted Successfully");
       event.target.reset();
       Swal.fire({
-        title: "Thank you !",
-        text: "Message Sent!",
+        position: "top-end",
         icon: "success",
+        title: "Your Message has been sent.",
+        showConfirmButton: false,
+        timer: 1500,
       });
     } else {
       console.log("Error", data);
