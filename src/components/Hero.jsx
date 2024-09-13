@@ -1,7 +1,4 @@
-// import { Link } from "react-router-dom";
-
 import { FaReact } from "react-icons/fa";
-
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
@@ -10,8 +7,6 @@ import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { BsFiletypeSql } from "react-icons/bs";
-import { FaRegDotCircle } from "react-icons/fa";
-
 import { motion } from "framer-motion";
 
 const animation = (delay) => ({
@@ -128,7 +123,12 @@ const Hero = () => {
               <div className="h-2 w-2 rounded-full border-white border-2"></div>
             </motion.button>
           </div>
-          <div className="flex flex-row-reverse pt-20 lg:pt-44 gap-4 pr-10 text-neutral-400 text-3xl">
+          <motion.div
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            transition={{ duration: 0.5, delay: 0.7 }}
+            className="flex flex-row-reverse pt-20 lg:pt-44 gap-4 pr-10 text-neutral-400 text-3xl"
+          >
             <a target="_blank" href="https://www.instagram.com/_somansh_14_">
               <FaInstagram className="hover:text-pink-500 hover:scale-110" />
             </a>
@@ -141,7 +141,7 @@ const Hero = () => {
             >
               <FaLinkedin className="hover:text-blue-500  p-0 hover:scale-110" />
             </a>
-          </div>
+          </motion.div>
           <div className=" pt-10">
             <motion.p
               variants={animation(0.9)}
