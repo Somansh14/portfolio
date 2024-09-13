@@ -53,76 +53,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex flex-col  fixed -right-20 lg:right-10  gap-2 text-xs ">
-            <motion.button
-              initial={{ scale: 2, opacity: 0 }}
-              whileInView={{
-                scale: 1,
-                opacity: 1,
-                duration: 2,
-                transition: { duration: 0.5, delay: 0.3 },
-              }}
-              onClick={() => {
-                window.scroll({
-                  top: 0,
-                  behavior: "smooth",
-                });
-              }}
-            >
-              <div className="h-2 w-2 rounded-full border-white border-2"></div>
-            </motion.button>
-            <motion.button
-              initial={{ scale: 2, opacity: 0 }}
-              whileInView={{
-                scale: 1,
-                opacity: 1,
-                duration: 2,
-                transition: { duration: 0.5, delay: 0.6 },
-              }}
-              onClick={() => {
-                window.scroll({
-                  top: 750,
-                  behavior: "smooth",
-                });
-              }}
-            >
-              <div className="h-2 w-2 rounded-full border-white border-2"></div>
-            </motion.button>
-            <motion.button
-              initial={{ scale: 2, opacity: 0 }}
-              whileInView={{
-                scale: 1,
-                opacity: 1,
-                duration: 2,
-                transition: { duration: 0.5, delay: 0.9 },
-              }}
-              onClick={() => {
-                window.scroll({
-                  top: 1520,
-                  behavior: "smooth",
-                });
-              }}
-            >
-              <div className="h-2 w-2 rounded-full border-white border-2"></div>
-            </motion.button>
-            <motion.button
-              initial={{ scale: 2, opacity: 0 }}
-              whileInView={{
-                scale: 1,
-                opacity: 1,
-                duration: 2,
-                transition: { duration: 0.5, delay: 1.2 },
-              }}
-              onClick={() => {
-                window.scroll({
-                  top: 2300,
-                  behavior: "smooth",
-                });
-              }}
-            >
-              <div className="h-2 w-2 rounded-full border-white border-2"></div>
-            </motion.button>
-          </div>
+          
           <motion.div
             initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
