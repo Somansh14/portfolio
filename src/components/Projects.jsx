@@ -24,13 +24,15 @@ const Projects = () => {
               transition={{ duration: 0.7 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={project.image}
-                width={250}
-                height={250}
-                alt={project.title}
-                className="mb-6 rounded border-2 border-[rgb(72,72,72)] "
-              />
+              <a target="blank" href={project.link}>
+                <img
+                  src={project.image}
+                  width={250}
+                  height={250}
+                  alt={project.title}
+                  className="mb-6 rounded border-2 border-[rgb(72,72,72)] "
+                />
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ x: 0, opacity: 1 }}

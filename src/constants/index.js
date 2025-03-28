@@ -7,11 +7,20 @@ export const ABOUT_TEXT = `I am a dedicated and versatile web developer with a p
 
 export const PROJECTS = [
   {
+    link: "https://shop-buddy-whbs.onrender.com/",
     title: "E-Commerce Website",
     image: project1,
     description:
       "Developed a comprehensive e-commerce platform using React, and React Router, featuring a responsive UI, error handling, and navigation to manage user profiles, orders, and products. Implemented user authentication, profile photo upload, order tracking, and payment processing using Stripe.",
     technologies: ["HTML", "React", "TailwindCSS", "MongoDB"],
+  },
+  {
+    link: "https://somansh14.github.io/WatchHQ/",
+    title: "Single Product Store(WatchHQ)",
+    image: project2,
+    description:
+      "Developed a visually appealing and user-friendly e-commerce website for WatchHQ, featuring a responsive design, interactive elements, and a seamless user experience. The website showcases various watch collections, provides detailed product information.",
+    technologies: ["HTML", "CSS", "JS",],
   },
   {
     title: "Portfolio Website ",
@@ -20,14 +29,7 @@ export const PROJECTS = [
       "Developed a responsive and user-friendly personal portfolio website showcasing projects, skills, and contact information. The website features a collection of projects, including an e-commerce website, a single product store, and a portfolio website, highlighting expertise in front-end technologies such as React, HTML, CSS, and JavaScript.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
-  {
-    title: "Single Product Store(WatchHQ)",
-    image: project2,
-    description:
-      "Developed a visually appealing and user-friendly e-commerce website for WatchHQ, featuring a responsive design, interactive elements, and a seamless user experience. The website showcases various watch collections, provides detailed product information.",
-    technologies: ["HTML", "CSS", "JS", ],
-  },
-  
+
 ];
 
 export const CONTACT = {
