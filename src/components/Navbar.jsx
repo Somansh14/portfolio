@@ -21,7 +21,7 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
         >
           <a
-            href="https://drive.google.com/file/d/1PN5ShsXgCcoConTg_6dfdC3wBoCE2aA4/view?usp=sharing"
+            href="https://drive.google.com/file/d/1C-vLCYL5U9lIuGYc3A03BrxkODhDxjaT/view?usp=drive_link"
             target="_blank"
             className="px-8 py-2 text-2xl bg-[rgba(255,255,255,0.04)] hover:border hover:border-slate-600  ease-in duration-300 rounded-xl"
           >
