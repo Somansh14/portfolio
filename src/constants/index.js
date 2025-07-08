@@ -7,7 +7,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile web developer with a p
 
 export const PROJECTS = [
   {
-    link: "https://shop-buddy-whbs.onrender.com/",
+    link: "https://shop-buddy-ucsw.onrender.com/",
     title: "E-Commerce Website",
     image: project1,
     description:
